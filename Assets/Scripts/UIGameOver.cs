@@ -15,7 +15,8 @@ public class UIGameOver : MonoBehaviour
 
     public void Show()
     {
-        gameObject.SetActive(true);
+        this.gameObject.SetActive(true);
+        Debug.Log("Lose");
     }
 
     public void Hide()
